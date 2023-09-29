@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.main_layout {
+  width: 300px;
+  padding-top: 100px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 5px;
+}
+
+.tasks_wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.filter {
+  display: flex;
+  justify-content: end;
+}
